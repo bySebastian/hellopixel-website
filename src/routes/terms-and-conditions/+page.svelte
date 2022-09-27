@@ -1,0 +1,1 @@
+<h1>Voorwaarden</h1>

@@ -1,0 +1,17 @@
+:root {
+    /* BREAKPOINTS */
+    --bp-xs: 0;
+    --bp-sm: 576px;
+    --bp-md: 768px;
+    --bp-lg: 992px;
+    --bp-xl: 1200px;
+    --bp-xxl: 1400px;
+    /* COLORS */
+    --primary-brand-color: #010101;
+    --secondary-brand-color: #8DBEB2;
+    --lightest-color: #FFFFFF;
+    /* FONTS */
+    --font-thin: 100;
+    --font-regular: 400;
+    --font-bold: 700;
+}

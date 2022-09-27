@@ -1,0 +1,40 @@
+.nav {
+
+}
+
+.nav-item {
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 24px;
+    font-weight: var(--font-400);
+    font-size: 18px;
+    transition: background-color .5s ease-in;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: var(--secondary-brand-color);
+}
+
+.nav-link.active {
+    border-bottom: 2px solid var(--primary-brand-color);
+}
+
+/* nav-footer */
+.nav-footer {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-footer .nav-link {
+    padding: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.nav-footer .nav-link:hover {
+    text-decoration: underline;
+    background-color: transparent;
+}

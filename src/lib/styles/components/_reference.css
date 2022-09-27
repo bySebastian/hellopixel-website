@@ -1,0 +1,20 @@
+.references {
+    display: flex;
+    justify-content: center;
+}
+.reference-item {
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    transition: transform .5s ease-in-out;
+}
+
+.reference-item:focus,
+.reference-item:hover {
+    transform: scale(105%);
+}
+
+.references img {
+    width: 200px;
+    filter: grayscale(100%);
+}

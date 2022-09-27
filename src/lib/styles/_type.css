@@ -1,0 +1,16 @@
+
+
+.lead {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: var(--font-regular);
+}
+
+.font-400 {
+    font-weight: var(--font-regular);
+}
+
+h1, .h1 {
+    font-size: 6rem;
+    font-weight: var(--font-thin);
+}

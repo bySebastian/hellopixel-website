@@ -1,0 +1,18 @@
+.site-header {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.site-slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .site-header {
+        width: 80vw;
+    }
+}

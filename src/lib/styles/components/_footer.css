@@ -1,0 +1,9 @@
+.site-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.site-footer div:nth-child(even) {
+    display: flex;
+    justify-content: flex-end;
+}
