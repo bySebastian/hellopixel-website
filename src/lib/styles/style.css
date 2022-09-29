@@ -1,5 +1,7 @@
 @import url(_fonts.css);
 @import url(_variables.css);
+@import url(_base.css);
+
 @import url(_type.css);
 
 @import url(components/_header.css);
@@ -12,41 +14,3 @@
 @import url(utilities/_alignment.css);
 @import url(utilities/_text.css);
 @import url(utilities/_spacing.css);
-
-* {
-    box-sizing: border-box;
-}
-
-html, body {
-    min-height: 100vh;
-}
-
-html {
-    font-size: 10px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    background: var(--lightest-color);
-    font-family: 'Lexend', sans-serif;
-    font-size: 1.6rem;
-    color: #333;
-}
-
-main {
-    flex-grow: 1;
-    padding: 1rem;
-    margin: 2rem auto;
-    max-width: 80vw;
-}
-  
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: underline;
-}
