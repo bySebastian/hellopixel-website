@@ -8,7 +8,7 @@
                 T. +32 (0)477 746 715<br />
                 VAT BE 0550710075
             </p>
-            <p>&copy; 2022 Hello Pixel - <a href="/sitemap">Sitemap</a></p>
+            <p class="mb-0">&copy; 2022 Hello Pixel - <a href="/sitemap">Sitemap</a></p>
         </div>
         <nav>
             <ul class="nav nav-footer">

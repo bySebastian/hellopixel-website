@@ -7,6 +7,10 @@ header {
     justify-content: space-between;
     width: 100vw;
     margin: 0 auto;
+
+    @media (--up-md) {
+        width: 80vw;
+    }
 }
 
 .site-slogan {
@@ -20,10 +24,4 @@ header {
 .section-header {
     padding: 40px 0;
     text-align: center;
-}
-
-@media (min-width: 768px) {
-    .site-header {
-        width: 80vw;
-    }
 }

@@ -1,0 +1,23 @@
+:root {
+    --bp-xs: 0;
+    --bp-sm: 576px;
+    --bp-md: 768px;
+    --bp-lg: 992px;
+    --bp-xl: 1200px;
+    --bp-xxl: 1600px;
+    --bp-xxl: 1800px;
+}
+
+@custom-media --up-sm (width >= 576px);
+@custom-media --up-md (width >= 768px);
+@custom-media --up-lg (width >= 992px);
+@custom-media --up-xl (width >= 1200px);
+@custom-media --up-xxl (width >= 1600px);
+@custom-media --up-xxl (width >= 1800px);
+
+@custom-media --down-sm (width >= 576px);
+@custom-media --down-md (width >= 768px);
+@custom-media --down-lg (width >= 992px);
+@custom-media --down-xl (width >= 1200px);
+@custom-media --down-xxl (width >= 1600px);
+@custom-media --down-xxl (width >= 1800px);

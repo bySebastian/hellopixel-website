@@ -1,16 +1,26 @@
-@import url(_fonts.css);
-@import url(_variables.css);
-@import url(_base.css);
+@import url(theme/_fonts.css);
+@import url(theme/_reset.css);
 
-@import url(_type.css);
+@import url(variables/_breakpoints.css);
+@import url(variables/_colors.css);
+@import url(variables/_fonts.css);
+@import url(variables/_spacers.css);
 
+/* ATOMS */
+@import url(atoms/_type.css);
+
+/* MOLECULES */
 @import url(components/_header.css);
 @import url(components/_footer.css);
 @import url(components/_nav.css);
 @import url(components/_list.css);
 @import url(components/_reference.css);
 @import url(components/_services.css);
+/* ORGANISMS */
+/* PAGES */
+/* TEMPLATES */
 
+/* UTILITIES */
 @import url(utilities/_alignment.css);
 @import url(utilities/_text.css);
 @import url(utilities/_spacing.css);

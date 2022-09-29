@@ -1,6 +1,7 @@
 .site-footer {
     padding: 40px 0;
     font-weight: 200;
+    font-size: 1.6rem;
     background-color: var(--color-gray);
     color: var(--primary-brand-color);
 }
