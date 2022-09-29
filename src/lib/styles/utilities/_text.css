@@ -1,0 +1,12 @@
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+.text-none {
+    text-transform: none;
+}

@@ -1,0 +1,10 @@
+.section-services {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .section-services {
+        width: 50%;
+    }
+}

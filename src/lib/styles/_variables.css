@@ -9,7 +9,28 @@
     /* COLORS */
     --primary-brand-color: #010101;
     --secondary-brand-color: #8DBEB2;
-    --lightest-color: #FFFFFF;
+    --color-gray: #F1F1F1;
+    --color-lightest: #FFFFFF;
+    --color-green-bg: #CBE89B;
+    --color-green-text: #004E48;
+    --color-lilac-bg: #D2D8ED;
+    --color-lilac-text: #422D50;
+    --color-yellow-bg: #FFF697;
+    --color-yellow-text: #724F00;
+    --color-orange-bg: #FEE59E;
+    --color-orange-text: #783806;
+    --color-blue-bg: #AFE1E8;
+    --color-blue-text: #154652;
+    --color-lime-bg: #DFF289;
+    --color-lime-text: #0C5820;
+    --color-red-pink-bg: #FFC3A7;
+    --color-red-pink-text: #82073B;
+    --color-pink-bg: #F3D7E0;
+    --color-pink-text: #64374C;
+    --color-beige-bg: #EFE6D5;
+    --color-beige-text: #644337;
+    --color-stormy-blue-bg: #C1D0DD;
+    --color-stormy-blue-text: #303B4B;
     /* FONTS */
     --font-thin: 100;
     --font-regular: 400;

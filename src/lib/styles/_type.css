@@ -1,9 +1,20 @@
-
+:root {
+    --font-thin: 100;
+    --font-extra-light: 200;
+    --font-regular: 400;
+    --font-bold: 700;
+}
 
 .lead {
+    margin: 40px 0;
     font-size: 2.4rem;
     line-height: 3rem;
     font-weight: var(--font-regular);
+    text-align: center;
+}
+
+.font-100 {
+    font-weight: var(--font-thin);
 }
 
 .font-400 {
@@ -13,4 +24,13 @@
 h1, .h1 {
     font-size: 6rem;
     font-weight: var(--font-thin);
+}
+
+h2, .h2 {
+    font-size: 4rem;
+    font-weight: var(--font-regular);
+}
+
+h3, .h3 {
+    font-size: 3.2rem;
 }

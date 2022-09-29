@@ -26,7 +26,7 @@
                 <a href="/services" class={path === "/services" ? "nav-link active" : "nav-link"}>Services</a>
             </li>
             <li class="nav-item">
-                <a href="/about" class={path === "/about" ? "nav-link active" : "nav-link"}>About me</a>
+                <a href="/about" class={path === "/about" ? "nav-link active" : "nav-link"}>About</a>
             </li>
             <li class="nav-item">
                 <a href="/contact" class={path === "/contact" ? "nav-link active" : "nav-link"}>Contact</a>

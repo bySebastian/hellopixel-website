@@ -5,13 +5,29 @@
 @import url(components/_header.css);
 @import url(components/_footer.css);
 @import url(components/_nav.css);
+@import url(components/_list.css);
 @import url(components/_reference.css);
+@import url(components/_services.css);
+
+@import url(utilities/_alignment.css);
+@import url(utilities/_text.css);
+@import url(utilities/_spacing.css);
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
 
 html {
     font-size: 10px;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     background: var(--lightest-color);
     font-family: 'Lexend', sans-serif;
@@ -20,32 +36,17 @@ body {
 }
 
 main {
+    flex-grow: 1;
     padding: 1rem;
     margin: 2rem auto;
     max-width: 80vw;
-}
-
-header {
-    padding: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer {
-    display: flex;
-    max-width: 80vw;
-    margin: 0 auto;
-}
-
-ul {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
 }
   
 a {
     text-decoration: none;
     color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }

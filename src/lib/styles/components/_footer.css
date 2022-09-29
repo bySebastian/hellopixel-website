@@ -1,9 +1,26 @@
 .site-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+    font-weight: 200;
+    background-color: var(--color-gray);
+    color: var(--primary-brand-color);
 }
 
-.site-footer div:nth-child(even) {
+.footer-content {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.footer-title {
+    margin: 0 0 24px;
+    font-size: 1.8rem;
+    font-weight: var(--font-regular);
+}
+
+.site-footer {
+    & div:nth-child(even) {
+        display: flex;
+        justify-content: flex-end;
+    }
 }

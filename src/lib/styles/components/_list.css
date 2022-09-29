@@ -1,0 +1,86 @@
+.list {}
+
+.list-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.list-block .list-item {
+    display: block;
+    width: 100%;
+
+    @media (min-width: 992px) {
+        width: 50%;
+    }    
+}
+
+.list-block {
+    & .list-item > span {
+        display: block;
+        margin: 8px;
+        padding: 12px 8px;
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-green-text);
+        background-color: var(--color-green-bg);
+        transition: transform .05s ease-in-out;
+    }
+
+    & .list-item:nth-child(odd) > span {
+        transform: rotate(-0.5deg);
+
+        &:hover {
+            transform: rotate(0.5deg);
+        }
+    }
+
+    & .list-item:nth-child(even) > span {
+        transform: rotate(0.5deg);
+
+        &:hover {
+            transform: rotate(-0.5deg);
+        }
+    }
+}
+
+.list-block .list-item {
+    &:nth-of-type(2) span {
+        color: var(--color-lilac-text);
+        background-color: var(--color-lilac-bg);
+    }
+    &:nth-of-type(3) span {
+        color: var(--color-yellow-text);
+        background-color: var(--color-yellow-bg);
+    }
+    &:nth-of-type(4) span {
+        color: var(--color-orange-text);
+        background-color: var(--color-orange-bg);
+    }
+    &:nth-of-type(5) span {
+        color: var(--color-blue-text);
+        background-color: var(--color-blue-bg);
+    }
+    &:nth-of-type(6) span {
+        color: var(--color-lime-text);
+        background-color: var(--color-lime-bg);
+    }
+    &:nth-of-type(7) span {
+        color: var(--color-red-pink-text);
+        background-color: var(--color-red-pink-bg);
+    }
+    &:nth-of-type(8) span {
+        color: var(--color-pink-text);
+        background-color: var(--color-pink-bg);
+    }
+    &:nth-of-type(9) span {
+        color: var(--color-beige-text);
+        background-color: var(--color-beige-bg);
+    }
+    :nth-of-type(10) span {
+        color: var(--color-stormy-blue-text);
+        background-color: var(--color-stormy-blue-bg);
+    }
+}

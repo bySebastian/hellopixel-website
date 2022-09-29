@@ -3,8 +3,6 @@ import { mdsvex } from "mdsvex";
 import preprocess from "svelte-preprocess";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import autoprefixer from "autoprefixer";
-import mediaVariables from "postcss-media-variables";
 
 export const prerender = true;
 
@@ -17,9 +15,10 @@ const config = {
 
 	preprocess: [
 		preprocess({
-			postcss: {
-				plugins: [autoprefixer, mediaVariables]
-			},
+			postcss: true,
+			default: {
+				style: "postcss",
+			}
 		}),
 		mdsvex({
 			extensions: [".md"],

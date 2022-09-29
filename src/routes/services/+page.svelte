@@ -1,13 +1,35 @@
-<h1>What we do?</h1>
-<p class="lead">We help companies and organisations build standard-compliant and clean front-end foundations for fast, ethical, accessible and responsible websites and applications to launch, fix or scale their apps and software.</p>
-<h2>Making digital easier.</h2>
-<p class="lead">The perfect combination:</p>
-<ol>
-    <li>Learn</li>
-    <li>Analyse and prototype</li>
-    <li>Webdesign</li>
-    <li>(agile) development</li>
-    <li>Test fase</li>
-    <li>Launch</li>
-    <li>Traffic</li>
-</ol>
+<svelte:head>
+    <title>Services | Hello Pixel</title>
+</svelte:head>
+
+<header class="section-header">
+    <h2 class="text-center text-upper">Services</h2>
+    <h3 class="font-100 text-center">We help you to <em>grow</em> digital.</h3>
+</header>
+
+<section>
+    <article>
+        <h3>Prototypes</h3>
+    </article>
+    <article>
+        <h3>Design</h3>
+    </article>
+    <article>
+        <h3>User Research</h3>
+    </article>
+    <article>
+        <h3>Usability testing</h3>
+    </article>
+    <article>
+        <h3>Accessibility testing</h3>
+    </article>
+    <article>
+        <h3>Websites</h3>
+    </article>
+    <article>
+        <h3>Webshops</h3>
+    </article>
+    <article>
+        <h3>Web Applications</h3>
+    </article>    
+</section>
