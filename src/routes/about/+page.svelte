@@ -3,7 +3,7 @@
 </svelte:head>
 
 <header class="section-header">
-    <h2 class="text-center text-upper">About</h2>
+    <h1 class="text-center text-upper">About</h1>
 </header>
 
 <div class="lead">
@@ -14,7 +14,7 @@
 
 <section>
     <header class="section-header">
-        <h3 class="font-100 text-center">Why <em>Hello Pixel</em>?</h3>
+        <h2 class="font-100 text-center">Why <em>Hello Pixel</em>?</h2>
     </header>
     <article>
         <h3>Remote first</h3>

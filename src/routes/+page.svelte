@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="site-slogan">
-    <h1>Welcome to <span class="font-400">Hello Pixel</span>!</h1>
+    <h1>Break things. Make things. Change the world!</h1>
 </div>
 <p class="lead mx-8">
     We help companies and organizations build standard-compliant and clean front-end foundations<br />
@@ -18,12 +18,14 @@
     <ul class="list list-services list-block">
         <li class="list-item"><span>Prototypes</span></li>
         <li class="list-item"><span>Design</span></li>
+        <li class="list-item"><span>Strategy</span></li>
         <li class="list-item"><span>User Research</span></li>
         <li class="list-item"><span>Usability testing</span></li>
         <li class="list-item"><span>Accessibility testing</span></li>
         <li class="list-item"><span>Websites</span></li>
         <li class="list-item"><span>Webshops</span></li>
         <li class="list-item"><span>Web Applications</span></li>
+        <li class="list-item"><span>Marketing</span></li>
     </ul>
     <div class="section-header">
         <h2 class="text-center text-upper">Who are we?</h2>

@@ -3,8 +3,8 @@
 </svelte:head>
 
 <header class="section-header">
-    <h2 class="text-center text-upper">Get in touch!</h2>
-    <h3 class="font-100 text-center">What can we <em>help</em> you with?</h3>
+    <h1 class="text-center text-upper">Get in touch!</h1>
+    <h2 class="font-100 text-center">What can we <em>help</em> you with?</h2>
 </header>
 
 <section>

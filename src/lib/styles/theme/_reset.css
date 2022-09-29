@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: 'Lexend', sans-serif;
+    font-size: 1.6rem;
 }
 
 main {
