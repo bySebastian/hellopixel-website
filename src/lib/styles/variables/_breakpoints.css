@@ -5,7 +5,7 @@
     --bp-lg: 992px;
     --bp-xl: 1200px;
     --bp-xxl: 1600px;
-    --bp-xxl: 1800px;
+    --bp-xxxl: 1800px;
 }
 
 @custom-media --up-sm (width >= 576px);
