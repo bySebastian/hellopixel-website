@@ -8,6 +8,7 @@
 
 /* ATOMS */
 @import url(atoms/_type.css);
+@import url(atoms/_header.css);
 
 /* MOLECULES */
 @import url(components/_header.css);

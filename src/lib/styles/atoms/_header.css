@@ -1,0 +1,63 @@
+.header {
+    --header-color-text: var(--color-brand-primary);
+    --header-color-bg: transparent;
+    display: inline-block;
+    margin: var(--space-3) 0;
+    padding: var(--space-1) var(--space-3);
+    font-size: 2.8rem;
+    font-weight: var(--font-weight-200);
+    text-align: center;
+    color: var(--header-color-text);
+    background-color: var(--header-color-bg);
+    transform: rotate(1.5deg);
+}
+
+.header--green {
+    --header-color-text: var(--color-green-text);
+    --header-color-bg: var(--color-green-bg);
+}
+
+.header--lilac {
+    --header-color-text: var(--color-lilac-text);
+    --header-color-bg: var(--color-lilac-bg);
+}
+
+.header--yellow {
+    --header-color-text: var(--color-yellow-text);
+    --header-color-bg: var(--color-yellow-bg);
+}
+
+.header--orange {
+    --header-color-text: var(--color-orange-text);
+    --header-color-bg: var(--color-orange-bg);
+}
+
+.header--blue {
+    --header-color-text: var(--color-blue-text);
+    --header-color-bg: var(--color-blue-bg);
+}
+
+.header--lime {
+    --header-color-text: var(--color-lime-text);
+    --header-color-bg: var(--color-lime-bg);
+}
+
+.header--red-pink {
+    --header-color-text: var(--color-red-pink-text);
+    --header-color-bg: var(--color-red-pink-bg);
+}
+
+.header---pink {
+    --header-color-text: var(--color-pink-text);
+    --header-color-bg: var(--color-pink-bg);
+}
+
+.header--beige {
+    --header-color-text: var(--color-beige-text);
+    --header-color-bg: var(--color-beige-bg);
+}
+
+.header--stormy-blue {
+    --header-color-text: var(--color-stormy-blue-text);
+    --header-color-bg: var(--color-stormy-blue-bg);
+}
