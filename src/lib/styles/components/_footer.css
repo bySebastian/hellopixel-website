@@ -3,7 +3,7 @@
     font-weight: 200;
     font-size: 1.6rem;
     background-color: var(--color-gray);
-    color: var(--primary-brand-color);
+    color: var(--color-brand-primary);
 }
 
 .footer-content {

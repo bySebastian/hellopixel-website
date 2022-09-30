@@ -20,7 +20,7 @@
 }
 
 .nav-link.active {
-    border-bottom: 2px solid var(--primary-brand-color);
+    border-bottom: 2px solid var(--color-brand-primary);
 }
 
 /* nav-primary */
@@ -37,7 +37,7 @@
             width: 0;
             height: 2px;
             content: "";
-            background-color: var(--primary-brand-color);
+            background-color: var(--color-brand-primary);
             transition: width 0.3s ease-in;
         }
 

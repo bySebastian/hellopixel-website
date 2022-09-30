@@ -1,6 +1,6 @@
 :root {
-    --primary-brand-color: #010101;
-    --secondary-brand-color: #8DBEB2;
+    --color-brand-primary: #010101;
+    --color-brand-secondary: #8DBEB2;
     --color-gray: #F1F1F1;
     --color-lightest: #FFFFFF;
     --color-green-bg: #CBE89B;
