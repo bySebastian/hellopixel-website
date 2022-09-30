@@ -20,8 +20,8 @@
 .list-block {
     & .list-item > span {
         display: block;
-        margin: 8px;
-        padding: 12px 8px;
+        margin: var(--space-1);
+        padding: var(--space-2) var(--space-1);
         font-size: 1.8rem;
         text-align: center;
         color: var(--color-green-text);

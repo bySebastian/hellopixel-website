@@ -1,6 +1,6 @@
 .references {
     margin-top: auto;
-    padding: 80px 0;
+    padding: var(--space-7) 0;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@
 .reference-item {
     display: flex;
     align-items: center;
-    padding: 24px;
+    padding: var(--space-3);
     transition: transform .5s ease-in-out;
 }
 

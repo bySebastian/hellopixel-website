@@ -17,11 +17,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0;
+    margin: var(--space-5) 0;
     font-size: 3rem;
 }
 
 .section-header {
-    padding: 40px 0;
+    padding: var(--space-5) 0;
     text-align: center;
 }

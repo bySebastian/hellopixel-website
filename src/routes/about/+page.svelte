@@ -6,17 +6,16 @@
     <h1 class="text-center text-upper">About</h1>
 </header>
 
-<div class="lead">
-    <p>We ontwerpen gebruiksvriendelijke digitale producten voor professioneel gebruik en ontwikkelen user interfaces efficiënt en duurzaam.</p>
-    <p>We vertalen ideeën in tastbare digitale oplossingen en valideren ze. We bouwen systemen om efficiënt en duurzaam te groeien, zonder op termijn afbreuk te doen aan de kwaliteit van het product en de productiviteit en beleving van de eindgebruiker.</p>
-    <p>We werken graag samen met bedrijven die samen willen evolueren en groeien. we gaan daarom voortdurend op zoek naar oplossingen die zo effectief, efficiënt en aangenaam mogelijk zijn voor zij die ze nodig hebben en zij die ze realiseren.</p>            
-</div>
-
 <section>
-    <header class="section-header">
-        <h2 class="font-100 text-center">Why <em>Hello Pixel</em>?</h2>
-    </header>
     <article>
+        <p class="lead">Hi, I am Sebastian.<br />
+        I am <em>a experienced front-end developer</em> and leveraging my experience and focus on elegant design and user experiences.<br />
+        <strong>My current position: front-end developer at iO in Ghent.</strong><br />
+        In my free time, I am working as freelancer and I help companies and agencies build standards-compliant and clean front-end foundations for fast, accessible and responsive web sites and applications.<br />
+        We ontwerpen gebruiksvriendelijke digitale producten voor professioneel gebruik en ontwikkelen user interfaces efficiënt en duurzaam.<br />
+        We vertalen ideeën in tastbare digitale oplossingen en valideren ze. We bouwen systemen om efficiënt en duurzaam te groeien, zonder op termijn afbreuk te doen aan de kwaliteit van het product en de productiviteit en beleving van de eindgebruiker.<br />
+        We werken graag samen met bedrijven die samen willen evolueren en groeien. we gaan daarom voortdurend op zoek naar oplossingen die zo effectief, efficiënt en aangenaam mogelijk zijn voor zij die ze nodig hebben en zij die ze realiseren.</p>
+        <h2 class="font-100 text-center">Why <em>Hello Pixel</em>!</h2>
         <h3>Remote first</h3>
         <p>We are used to working remotely, and can adept to a remote-first strategy.</p>
         <h3>Ethical</h3>
